@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Functional Test Suite" verbose="1" parallel="classes" thread-count ="3">
+
+  <!-- For Parameterizatin below -->
+  <parameter name="browser" value="chrome"/>
+
+  <test name="sanity bucket">
+    <classes>
+     <class name="com.starAgile.testng.TestNGParameterization"/>
+   
+   <!-- For Parallel execution below
+     
+       <class name="com.starAgile.testng.TestNgParallel"/>
+       <class name="com.starAgile.testng.TestNGTest1"/> -->
+    </classes>
+  </test>
+</suite>

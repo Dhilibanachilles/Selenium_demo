@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T21:33:59 IST" name="Default suite" finished-at="2024-06-03T21:35:34 IST" duration-ms="95594">
+    <groups>
+    </groups>
+    <test started-at="2024-06-03T21:33:59 IST" name="Default test" finished-at="2024-06-03T21:35:34 IST" duration-ms="95594">
+      <class name="com.starAgile.moduleThree.AssertionsEg">
+        <test-method signature="testcase1()[pri:0, instance:com.starAgile.moduleThree.AssertionsEg@3febb011]" started-at="2024-06-03T21:33:59 IST" name="testcase1" finished-at="2024-06-03T21:34:50 IST" duration-ms="51273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase2()[pri:1, instance:com.starAgile.moduleThree.AssertionsEg@3febb011]" started-at="2024-06-03T21:34:50 IST" name="testcase2" finished-at="2024-06-03T21:35:34 IST" duration-ms="44174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+      </class> <!-- com.starAgile.moduleThree.AssertionsEg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
